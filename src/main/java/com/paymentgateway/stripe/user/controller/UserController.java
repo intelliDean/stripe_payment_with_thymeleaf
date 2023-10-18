@@ -46,7 +46,7 @@ public class UserController {
                     userService.deleteUser(userId)
             );
         } catch (StripeException e) {
-            throw new RuntimeException("User delete error");
+            throw new RuntimeException("Error deleting user");
         }
     }
     @PostMapping("create-product")
