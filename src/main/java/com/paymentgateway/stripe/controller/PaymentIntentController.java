@@ -37,4 +37,5 @@ public class PaymentIntentController {
                 .clientSecret(intent.getClientSecret())
                 .build();
     }
+
 }
